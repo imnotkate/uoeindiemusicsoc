@@ -26,7 +26,7 @@ function Navbar() {
     <nav className='navbar'>
         <div className='navbar-container'>
             
-            <a className="logo_image" href="/"  onClick={closeMobileMenu}></a>
+            <a className="logo_image" href="/uoeindiemusicsoc"  onClick={closeMobileMenu}></a>
 
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
