@@ -11,7 +11,7 @@ import Reviews from './pages/Reviews';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/uoeindiemusicsoc'>
       <Navbar />
       <Routes>
         <Route path='/' exact element= {<Home/>} />
