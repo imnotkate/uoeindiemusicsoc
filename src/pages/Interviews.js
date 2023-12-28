@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css'
-import Interviews from '../components/Interviews'
 import Footer from '../components/Footer';
 import InterviewsOld from '../components/InterviewsEtc';
 

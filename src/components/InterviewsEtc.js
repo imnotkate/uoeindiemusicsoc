@@ -23,7 +23,7 @@ function InterviewsEtc() {
         src={first}
         text='Woke Up and Asked Armand Hammer a Few Questions: An Interview'
         label='Interview'
-        path='/events'
+        path='/interviews'
         author='Lachlan Kiddie'
         date='Sep 13, 2023'
       />
@@ -31,7 +31,7 @@ function InterviewsEtc() {
         src={second}
         text='...To Be Recognised: An Interview with Kara Jackson'
         label='Interview'
-        path='/events'
+        path='/interviews'
         author='Lachlan Kiddie'
         date='Aug 8, 2023'
       />
@@ -44,7 +44,7 @@ function InterviewsEtc() {
         src={third}
         text="You Are Burning Me Up Like This: An Interview with Death's Dynamic Shroud"
         label='Interview'
-        path='/events'
+        path='/interviews'
         author='Lachlan Kiddie'
         date='Jul 25, 2023'
       />
@@ -52,7 +52,7 @@ function InterviewsEtc() {
         src={fourth}
         text="If John Dwyer Had His Way: An Interview with Osees's Frontman"
         label='Interview'
-        path='/events'
+        path='/interviews'
         author='Lachlan Kiddie'
         date='Jun 12, 2023'
       />
@@ -65,7 +65,7 @@ function InterviewsEtc() {
               src={i}
               text='Disposing of AJJ (Andrew Jackson Jihad): An Interview'
               label='Interview'
-              path='/events'
+              path='/interviews'
               author='Lachlan Kiddie'
               date='Jun 12, 2023'
             />
@@ -73,7 +73,7 @@ function InterviewsEtc() {
               src={ii}
               text='A tape called interview with the Open Mike Eagle'
               label='Interview'
-              path='/events'
+              path='/interviews'
               author='Lachlan Kiddie'
               date='Feb 10, 2023'
             />
@@ -86,7 +86,7 @@ function InterviewsEtc() {
               src={iii}
               text="An Interview with Mogwai's Stuart Braithwaite"
               label='Interview'
-              path='/events'
+              path='/interviews'
               author='Cameron Bilsland'
               date='Jan 31, 2023'
             />
@@ -94,7 +94,7 @@ function InterviewsEtc() {
               src={iv}
               text="The Boys with the Arab Strap: An Interview"
               label='Interview'
-              path='/events'
+              path='/interviews'
               author='Lachlan Kiddie'
               date='Jan 23, 2023'
             />
@@ -106,7 +106,7 @@ function InterviewsEtc() {
               src={v}
               text="'The Wrong Thing' Done Right: An Interview with Xiu Xiu's Jamie Stewart"
               label='Interview'
-              path='/events'
+              path='/interviews'
               author='Lachlan Kiddie'
               date='Jan 9, 2023'
             />
@@ -114,7 +114,7 @@ function InterviewsEtc() {
               src={vi}
               text="It's clipping. Bitch: An Interview"
               label='Interview'
-              path='/events'
+              path='/interviews'
               author='Lachlan Kiddie'
               date='Nov 16, 2023'
             />

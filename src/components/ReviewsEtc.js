@@ -21,7 +21,7 @@ function ReviewsEtc() {
               src={img1}
               text='Our 50 Best Singles of 2023'
               label='Review'
-              path='/events'
+              path='/reviews'
               author='Lachlan Kiddie'
               date='Dec 12, 2023'
             />
@@ -29,7 +29,7 @@ function ReviewsEtc() {
               src={img2}
               text='Our 100 Best Albums of the 2010s'
               label='Review'
-              path='/events'
+              path='/reviews'
               author='Lachlan Kiddie'
               date='Sep 20, 2023'
             />
@@ -41,7 +41,7 @@ function ReviewsEtc() {
               src={img3}
               text='Our Review of Connect Festival 2023'
               label='Review'
-              path='/events'
+              path='/reviews'
               author='Most of the Committee'
               date='Sep 10, 2023'
             />
@@ -49,7 +49,7 @@ function ReviewsEtc() {
               src={img4}
               text="Album Review: 'Disposable Everything' - AJJ"
               label='Review'
-              path='/events'
+              path='/reviews'
               author='Lachlan Kiddie'
               date='May 27, 2023'
             />
@@ -61,7 +61,7 @@ function ReviewsEtc() {
               src={ri}
               text="Reviews: 'Ignore Grief' Xiu Xiu, 'UGLY' Slowthai, 'Red Moon in Venus' Kali Uchis"
               label='Review'
-              path='/events'
+              path='/reviews'
               author='Lachlan Kiddie'
               date='Mar 4, 2023'
             />
@@ -69,7 +69,7 @@ function ReviewsEtc() {
               src={rii}
               text="Indie Soc's Top 20 Albums of 2022"
               label='Review'
-              path='/events'
+              path='/reviews'
               author='Lachlan Kiddie'
               date='Dec 20, 2022'
             />
@@ -81,7 +81,7 @@ function ReviewsEtc() {
               src={riii}
               text="Indie Soc's Top 30 Singles of 2022"
               label='Review'
-              path='/events'
+              path='/reviews'
               author='Lachlan Kiddie'
               date='Dec 9, 2022'
             />

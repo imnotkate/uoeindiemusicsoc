@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div id='contact'>
+    <div id='contact-us'>
     <div className='footer-container'>
       <section className='footer-email'>
         <p className='footer-email-heading'>

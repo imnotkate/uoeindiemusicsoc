@@ -17,7 +17,7 @@ function Navbar() {
     const closeMobileMenu = () => setClick(false)
     
     const scrollDown = () => {
-        const footer = document.getElementById('contact'); // Get the footer element by ID
+        const footer = document.getElementById('contact-us'); // Get the footer element by ID
         footer.scrollIntoView({ }); // Scroll to the footer with smooth behavior
       };
 
@@ -54,7 +54,7 @@ function Navbar() {
                 scrollDown(); // Scroll to footer if on the home page
               } else {
                 // If on other pages, append the hash to the URL to scroll to the footer
-                window.location.hash = '#contact';
+                window.location.hash = '#contact-us';
               }
             }}>Contact Us</Link>
                 </li>
