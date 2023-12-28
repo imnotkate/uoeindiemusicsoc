@@ -13,10 +13,6 @@
     background-image: linear-gradient(to bottom left, #FFEBC5, #fffced);
   }
 
-  .events__container .cards__item {
-    width: 250px;
-  }
-
   .interviews__container {
     padding: 4rem;
     display: flex;
@@ -144,12 +140,12 @@
       margin-bottom: 2rem;
     }
     
-    .cards__item {
-        width: 400px;
+    .events__container .cards__item {
+        width: 300px;
     }
 
-    .events__container .cards__item {
-       width: 400px;
+    .cards__item {
+        width: 300px;
     }
 
     .cards__item__pic-wrap {

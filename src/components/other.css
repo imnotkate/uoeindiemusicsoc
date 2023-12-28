@@ -180,11 +180,11 @@ h1 {
     }
     
     .cards__newitem {
-        width: 400px;
+        width: 300px;
     }
 
     .events__container .cards__item {
-       width: 400px;
+       width: 300px;
     }
 
     .cards__newitem__pic-wrap {
