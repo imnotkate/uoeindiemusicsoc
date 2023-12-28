@@ -32,6 +32,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
+
+  .footer-container a {
+    color: #fff;
+  }
   
   .footer-email-heading {
     margin-bottom: 24px;

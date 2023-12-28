@@ -16,9 +16,9 @@ function Footer() {
          edinburghindiemusicsoc@gmail.com
         </a>    
             <Button buttonStyle='btn--outline'>GET YOUR MEMBERSHIP</Button>
-            <p className='footer-coder-text'>
+            <a href='https://www.linkedin.com/in/kate-rankin-8025b325b/'><p className='footer-coder-text'>
          Website by Kate Rankin
-        </p> 
+        </p></a>
       </section>
        
       <section class='social-media'>
