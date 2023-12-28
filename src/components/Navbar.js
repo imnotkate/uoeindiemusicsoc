@@ -26,7 +26,7 @@ function Navbar() {
     <nav className='navbar'>
         <div className='navbar-container'>
             
-            <a className="logo_image" href="/uoeindiemusicsoc"  onClick={closeMobileMenu}></a>
+            <a className="logo_image" href="/uoeindiemusicsoc"  onClick={closeMobileMenu}> </a>
 
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -56,6 +56,7 @@ function Navbar() {
                 // If on other pages, append the hash to the URL to scroll to the footer
                 window.location.hash = '#contact-us';
               }
+              closeMobileMenu();
             }}>Contact Us</Link>
                 </li>
             </ul>

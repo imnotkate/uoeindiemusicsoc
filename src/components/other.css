@@ -177,10 +177,7 @@ h1 {
   @media only screen and (max-width: 1024px) {
     .cards__newitem {
       margin-bottom: 2rem;
-    }
-    
-    .cards__newitem {
-        width: 300px;
+      width: 300px;
     }
 
     .events__container .cards__item {
@@ -199,3 +196,14 @@ h1 {
         padding: 20px; /* Adjust padding for smaller screens */
       }
   }
+
+  @media screen and (max-width: 820px){
+    .event-container p, .interviews__container p, .reviews__container p  {
+        padding: 2rem 0 0 0;
+        margin: auto;
+        font-size: 1.2rem;
+        text-align: center;
+        color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}

@@ -17,7 +17,7 @@ function Footer() {
         </a>    
             <Button buttonStyle='btn--outline'>GET YOUR MEMBERSHIP</Button>
             <p className='footer-coder-text'>
-         Coded by Kate Rankin
+         Website by Kate Rankin
         </p> 
       </section>
        

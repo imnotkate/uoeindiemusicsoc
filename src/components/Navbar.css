@@ -143,9 +143,5 @@
       color: #e84e3f;
       font-size: 2.5rem;
     }
-
-    .nav-menu.active .nav-item:last-child {
-      display: none;
-    }
   }
   
