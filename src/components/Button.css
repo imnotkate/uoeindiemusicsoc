@@ -1,0 +1,72 @@
+:root {
+    --primary:#e84e3f;
+}
+
+.btn {
+    padding: 10px 10px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    color: #fff;
+    border: 2px solid #fff;
+}
+ 
+
+.btn--outline {
+    background-color: transparent;
+    color:  #e84e3f;
+    padding: 8px 20px;
+    border: 2px solid  #e84e3f;
+    transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+    padding: 18px 20px;
+    font-size: 20px;
+}
+
+.btn--large {
+    padding: 24px 26px;
+    font-size: 20px;
+}
+
+.btn--medium:hover,
+.btn--large:hover {
+    transition: all 0.3s ease-out;
+    background:  #e84e3f;
+    color: #fff;
+    transition: 250ms;
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #e53935 0%, #e35d5b  51%, #e53935  100%);
+    text-decoration: none;
+    margin: 10px;
+    padding: 20px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    cursor: pointer;
+    color: white;            
+    box-shadow: 0 2px 5px rgb(128, 126, 126);
+    border-radius: 30px;
+    display: block;
+    border-width: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 1.3rem;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+ 

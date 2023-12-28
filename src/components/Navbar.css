@@ -1,0 +1,150 @@
+.navbar {
+    background: #fffced;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    max-width: 1500px;
+  }
+
+  .logo_image {
+      height: 90%;
+      width: 10%;
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      justify-self: auto;
+      background-image: url('../images/IMSlogo.jpg');
+      margin-left: 5rem;
+  }
+  
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap:10px;
+    list-style: none;
+    text-align: center;
+    width: 80vw;
+    justify-content: end;
+  }
+  
+  .nav-item {
+    height: 90px;
+  }
+  
+  .nav-links {
+    color: #e84e3f;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 0.7rem;
+    height: 100%;
+    position: relative;
+  }
+
+  .nav-links:hover {
+    border-bottom: 6px solid #e84e3f;
+    transition: all 0.2s ease-out;
+  }
+
+  .fa-bars {
+    color: #e84e3f;
+    font-size: 2.5rem;
+  }
+    
+  .nav-links-mobile {
+    display: none;
+  }
+    
+  .menu-icon {
+    display: none;
+  }
+
+  /*MOBILE*/
+  
+  @media screen and (max-width: 960px) {
+    .NavbarItems {
+      position: relative;
+      top:0;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      position: fixed;
+      top: 90px;
+      right: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+      grid-gap:0;
+    }
+  
+    .nav-menu.active {
+      background: #fffced;
+      right: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+
+    .logo_image {
+      width: 90%;
+      height:90%;
+      justify-self: start;
+      position: absolute;
+      margin-left: 0;
+  }
+  
+  .nav-links {
+    text-align: center;
+    display: block;
+    margin: 0;
+    width: 100%;
+    display: table;
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: 2rem 0;
+  }
+
+  .nav-links:hover {
+    background-color: #fff;
+    color: #e84e3f;
+    border-bottom: none;
+  }
+
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      cursor: pointer;
+    }
+  
+    .fa-times {
+      color: #e84e3f;
+      font-size: 2.5rem;
+    }
+
+    .nav-menu.active .nav-item:last-child {
+      display: none;
+    }
+  }
+  
