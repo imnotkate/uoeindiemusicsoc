@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/uoeindiemusicsoc/static/css/main.33150696.css",
-    "main.js": "/uoeindiemusicsoc/static/js/main.8c1fcdae.js",
+    "main.css": "/uoeindiemusicsoc/static/css/main.8cd777f6.css",
+    "main.js": "/uoeindiemusicsoc/static/js/main.0a91e6cd.js",
     "static/media/vi.jpg": "/uoeindiemusicsoc/static/media/vi.489572b87063f5ad207c.jpg",
     "static/media/img3.jpg": "/uoeindiemusicsoc/static/media/img3.e5d2a36369c8c1a1f3a0.jpg",
     "static/media/i.jpg": "/uoeindiemusicsoc/static/media/i.5a1ed582756e3381a671.jpg",
@@ -26,11 +26,11 @@
     "static/media/IMSlogo.jpg": "/uoeindiemusicsoc/static/media/IMSlogo.0a561780772c061ba0e3.jpg",
     "static/media/cassette.jpg": "/uoeindiemusicsoc/static/media/cassette.7758d83f009d49bcea99.jpg",
     "index.html": "/uoeindiemusicsoc/index.html",
-    "main.33150696.css.map": "/uoeindiemusicsoc/static/css/main.33150696.css.map",
-    "main.8c1fcdae.js.map": "/uoeindiemusicsoc/static/js/main.8c1fcdae.js.map"
+    "main.8cd777f6.css.map": "/uoeindiemusicsoc/static/css/main.8cd777f6.css.map",
+    "main.0a91e6cd.js.map": "/uoeindiemusicsoc/static/js/main.0a91e6cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.33150696.css",
-    "static/js/main.8c1fcdae.js"
+    "static/css/main.8cd777f6.css",
+    "static/js/main.0a91e6cd.js"
   ]
 }
