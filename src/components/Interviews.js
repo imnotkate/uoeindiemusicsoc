@@ -5,7 +5,7 @@ import first from '../images/1img1.jpg'
 import second from '../images/1img2.jpg'
 import third from '../images/1img3.jpg'
 import fourth from '../images/1img4.jpg'
-
+import { Link } from 'react-router-dom';
 
 function Interviews() {
   return (
@@ -39,6 +39,7 @@ function Interviews() {
             />
           </ul>
         </div>
+        <Link to='/interviews' className='btn-plz'><button className='btn-grad'>See more</button></Link>
       </div>
   );
 }

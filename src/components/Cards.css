@@ -2,6 +2,10 @@
     color: #e84e3f;
     text-align: center;
   }
+
+  .events__container .btn-plz, .reviews__container .btn-plz, .interviews__container .btn-plz {
+    margin-top: 2rem;
+  }
   
   .events__container {
     padding: 4rem;

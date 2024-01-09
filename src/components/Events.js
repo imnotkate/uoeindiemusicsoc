@@ -3,6 +3,7 @@ import './Cards.css';
 import CardItem from './CardItem';
 import billy from '../images/billywoods.jpg'
 import club from '../images/mondayclub.jpg'
+import { Link } from 'react-router-dom';
 
 function Events() {
   return (
@@ -24,6 +25,7 @@ function Events() {
             />
           </ul>
         </div>
+        <Link to='/events' className='btn-plz'><button className='btn-grad'>See more</button></Link>
       </div>
   );
 }

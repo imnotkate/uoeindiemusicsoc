@@ -14,18 +14,7 @@ background-color: #fffced;
 .btn-plz {
     border: none;
     background-color: transparent;
-    margin-bottom: 2rem;
-}
-
-.bongos {
-    height: 70vh;
-    width: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 40px;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
 }
 
 .gig {
@@ -44,7 +33,7 @@ background-color: #fffced;
 
 .about-container p {
     padding: auto;
-    margin: 30px 30px 30px 70px;
+    margin: 40px 30px 30px 70px;
     font-size: 1.2rem;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -52,10 +41,14 @@ background-color: #fffced;
 
 .aboutNew-container p {
     padding: 0;
-    margin: 0 2rem 2rem;
+    margin: 2rem;
     font-size: 1.2rem;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutNew-container .btn-plz {
+    margin-bottom: 1rem;
 }
 
 a {
