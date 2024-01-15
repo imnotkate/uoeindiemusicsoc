@@ -28,7 +28,7 @@
   }
 
   .reviews__container {
-    padding: 4rem 4rem 0 4rem;
+    padding: 4rem;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -44,10 +44,13 @@
   .cards__wrapper {
     position: relative;
     margin: 50px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .cards__items {
     margin-bottom: 10px;
+    flex: 1;
   }
   
   .cards__item {
@@ -115,6 +118,7 @@
   
   .cards__item__info {
     padding: 20px 30px 30px;
+    height: 100%;
   }
   
   .cards__item__text {
@@ -129,7 +133,7 @@
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
-      width: 84%;
+      width: 100%;
     }
   }
   
@@ -142,16 +146,9 @@
   @media only screen and (max-width: 1024px) {
     .cards__item {
       margin-bottom: 2rem;
+      width: 300px;
     }
     
-    .events__container .cards__item {
-        width: 300px;
-    }
-
-    .cards__item {
-        width: 300px;
-    }
-
     .cards__item__pic-wrap {
         padding-top: 100%; /* Adjusted to remove aspect ratio for smaller screens */
       }
@@ -162,5 +159,6 @@
     
       .cards__item__info {
         padding: 20px; /* Adjust padding for smaller screens */
+        height: auto;
       }
   }
